@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+        <ScrollView
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <Button
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:id="@+id/bkash"
+                    android:background="@drawable/design"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginRight="10.0dip"
+                    android:text="BKASH" />
+                <Button
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:id="@+id/dbbl"
+                    android:background="@drawable/design"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginTop="10.0dip"
+                    android:layout_marginRight="10.0dip"
+                    android:text="DBBL" />
+                <Button
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:id="@+id/mcash"
+                    android:background="@drawable/design"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginTop="10.0dip"
+                    android:layout_marginRight="10.0dip"
+                    android:text="MCASH" />
+                <Button
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:id="@+id/ucash"
+                    android:background="@drawable/design"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginTop="10.0dip"
+                    android:layout_marginRight="10.0dip"
+                    android:text="UCASH" />
+                <Button
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:id="@+id/mycash"
+                    android:background="@drawable/design"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginTop="10.0dip"
+                    android:layout_marginRight="10.0dip"
+                    android:text="MYCASH" />
+                <Button
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:id="@+id/surecash"
+                android:background="@drawable/design"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:text="SURE CASH" />
+
+                <Button
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:id="@+id/ok"
+                    android:background="@drawable/design"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginTop="10.0dip"
+                    android:layout_marginRight="10.0dip"
+                    android:text="OK" />
+                <Button
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:id="@+id/ifci"
+                    android:background="@drawable/design"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginTop="10.0dip"
+                    android:layout_marginRight="10.0dip"
+                    android:text="IFIC" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>

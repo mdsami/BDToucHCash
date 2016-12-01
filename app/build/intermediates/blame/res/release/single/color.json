@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\AD-Work\\AndroidSplashScreenTimer\\app\\build\\intermediates\\res\\merged\\release\\color\\wallet_primary_text_holo_light.xml",
+        "source": "E:\\AD-Work\\AndroidSplashScreenTimer\\app\\src\\main\\res\\color\\wallet_primary_text_holo_light.xml"
+    },
+    {
+        "merged": "E:\\AD-Work\\AndroidSplashScreenTimer\\app\\build\\intermediates\\res\\merged\\release\\color\\common_signin_btn_text_light.xml",
+        "source": "E:\\AD-Work\\AndroidSplashScreenTimer\\app\\src\\main\\res\\color\\common_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "E:\\AD-Work\\AndroidSplashScreenTimer\\app\\build\\intermediates\\res\\merged\\release\\color\\common_signin_btn_text_dark.xml",
+        "source": "E:\\AD-Work\\AndroidSplashScreenTimer\\app\\src\\main\\res\\color\\common_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "E:\\AD-Work\\AndroidSplashScreenTimer\\app\\build\\intermediates\\res\\merged\\release\\color\\wallet_secondary_text_holo_dark.xml",
+        "source": "E:\\AD-Work\\AndroidSplashScreenTimer\\app\\src\\main\\res\\color\\wallet_secondary_text_holo_dark.xml"
+    }
+]
